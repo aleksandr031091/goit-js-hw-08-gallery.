@@ -66,7 +66,6 @@ function removeActiveClass() {
 let currentIndex = 0;
 
 function onEscClose(e) {
-  console.dir(e.keyCode);
   switch (e.keyCode) {
     case 27:
       removeActiveClass();
